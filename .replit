@@ -1,14 +1,10 @@
-compile = "mvn compile"
+compile = "mvn clean compile"
 run = ["mvn", "test"]
 
 entrypoint = "Main.java"
 hidden = ["**/*.class"]
 
-[packager]
-language = "java"
 
-[packager.features]
-packageSearch = true
 
 [languages.java]
 pattern = "**/*.java"
@@ -16,8 +12,6 @@ pattern = "**/*.java"
 [languages.java.languageServer]
 start = ["jdt-language-server"]
 
-[unitTest]
-language = "java"
 
 [nix]
 channel = "stable-21_11"
