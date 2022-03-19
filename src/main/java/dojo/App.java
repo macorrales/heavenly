@@ -1,4 +1,4 @@
-package com.macorrales.replit;
+package dojo;
 
 /**
  * Hello world!

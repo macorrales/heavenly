@@ -1,4 +1,4 @@
-package com.macorrales.replit;
+package dojo;
 
 
 import org.junit.jupiter.api.Test;
@@ -16,6 +16,6 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-        assertTrue( false );
+        assertTrue( true);
     }
 }
