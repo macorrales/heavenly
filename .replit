@@ -1,5 +1,5 @@
 run = ["mvn", "clean", "test"]
-
+entrypoint = "src/test/java/dojo/AppTest.java"
 
 
 [languages.java]
